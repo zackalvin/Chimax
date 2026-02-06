@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  height: 100dvh;
+  width: 100%;
+  color: #ffffffe3;
+  font-family: Verdana;
+}
+
+.container{
+  height: 100%;
+  background-image: linear-gradient(rgba(0,0,0,0.5)100%),url('sal.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  padding: 20px;
+}
+
+.first{
+  margin-top: 20px;
+}
+
+h1{
+  font-size: 3em;
+  line-height: 60px;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  font-family: s;
+}
+
+p{
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.second{
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+/*  width: 100%; */
+}
+
+button{
+  padding: 10px;
+  width: 300px;
+  border-radius: 10px;
+  border: 1px solid white;
+  font-weight: 550;
+  background-color: #f8a016;
+  color: inherit;
+  font-size: 16px;
+}
+
+a{
+  text-decoration: none;
+  color: White;
+}
